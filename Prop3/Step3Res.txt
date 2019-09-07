@@ -1,0 +1,17 @@
+Presenation of Agreements
+
+Labeler1 VS Labeler2
+Valence Observed Agreement:0.81978210
+Activation Observed Agreement:0.84587410
+Total Mean Agreement:0.83282810
+
+Labeler1 VS Labeler3
+Valence Observed Agreement:0.82281610
+Activation Observed Agreement:0.79611710
+Total Mean Agreement:0.80946610
+
+Labeler2 VS Labeler3
+Valence Observed Agreement:0.83313110
+Activation Observed Agreement:0.80461210
+Total Mean Agreement:0.81887110
+

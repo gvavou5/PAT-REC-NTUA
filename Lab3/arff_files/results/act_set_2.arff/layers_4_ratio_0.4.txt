@@ -1,0 +1,62 @@
+
+Time taken to build model: 197.4 seconds
+Time taken to test model on training data: 0.23 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         193               54.3662 %
+Incorrectly Classified Instances       162               45.6338 %
+Kappa statistic                          0     
+Mean absolute error                      0.4967
+Root mean squared error                  0.4981
+Relative absolute error                100.1059 %
+Root relative squared error            100.0057 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances              355     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.772     0.733     1
+                 1.000    1.000    0.544      1.000    0.704      0.000    0.772     0.792     -1
+Weighted Avg.    0.544    0.544    0.296      0.544    0.383      0.000    0.772     0.765     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   0 162 |   a = 1
+   0 193 |   b = -1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         253               71.2676 %
+Incorrectly Classified Instances       102               28.7324 %
+Kappa statistic                          0.4146
+Mean absolute error                      0.321 
+Root mean squared error                  0.4674
+Relative absolute error                 64.6818 %
+Root relative squared error             93.8349 %
+Coverage of cases (0.95 level)          93.8028 %
+Mean rel. region size (0.95 level)      82.3944 %
+Total Number of Instances              355     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.617    0.207    0.714      0.617    0.662      0.418    0.782     0.731     1
+                 0.793    0.383    0.712      0.793    0.750      0.418    0.782     0.798     -1
+Weighted Avg.    0.713    0.303    0.713      0.713    0.710      0.418    0.782     0.768     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 100  62 |   a = 1
+  40 153 |   b = -1
+

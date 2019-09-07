@@ -1,0 +1,4 @@
+Presenation of Krippendorff’s alpha coefficient
+
+Krippendorff’s alpha coefficient for Valence: 0.4746924
+Krippendorff’s alpha coefficient for Activation: 0.4398084
